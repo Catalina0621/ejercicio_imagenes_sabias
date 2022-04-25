@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*star header*/
+header{
+    position: relative;
+    width: 100%;
+}
+
+header nav{
+    background: #ce89ee;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 12px 8px;
+    transition: .5s;
+    border: 1px solid transparent;
+}
+
+header nav  ul{
+    display: flex;
+
+}
+
+header nav ul li{
+    margin: 5px 10px;
+    list-style: none;
+}
+
+header nav #logo a img{
+    width: 250px;
+}
+
+nav ul li a{
+    color: #380138;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+header #hero{
+    width: 100%;
+    position: relative;
+}
+
+header #hero h1 {
+    position: absolute;
+    top: 25%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: blanchedalmond;
+    text-shadow: 5px 5px 7px #070703;
+    background: #d17de688;
+    font-size: 60px;
+    padding: 30px;
+}
+
+header #hero img{
+    width: 100%;
+}
+
+/*este efecto es para que se subraye la seccion */
+nav ul li a:hover{
+    border-bottom: 2px solid #7511d3;
+    border-top:2px solid #9e3feb
+}
+/*end header*/
+
+/*star main*/
+main{
+    width: 100%;
+    position: relative;
+}
+
+main #welcome{
+    background: #9e52e6be;
+    width: 100%;
+}
+
+main #welcome .row{
+    
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main #welcome .row #contText{
+    width: 50%;
+    padding: 100px 20px;
+}
+
+main #welcome .row #contImg{
+    width: 50%;
+    padding: 50px 0;
+}
+
+main #welcome .row #contImg img{
+    width: 100%;
+    max-width: 500px;
+    
+}
+.row #contText h2{ 
+    font-size: 40px;
+    color: #380138;
+}
+
+.row #contText p{ 
+    font-size: 20px;
+    color: #1a051a;
+}
